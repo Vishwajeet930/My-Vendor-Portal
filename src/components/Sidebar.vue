@@ -14,15 +14,15 @@
         <router-link to="/"> 
           <li><a href="#" class="block p-2">Dashboard</a></li>
         </router-link>
-        <router-link to="newpo"> 
+        <router-link to="onboarding"> 
           <li><a href="#" class="block p-2">Onboarding</a></li>
         </router-link>
 
-          <router-link to="newpo"> 
+          <router-link to="supplierquotation"> 
           <li><a href="#" class="block p-2">Supplier Quotation</a></li>
         </router-link>
 
-          <router-link to="newpo"> 
+          <router-link to=""> 
           <li><a href="#" class="block p-2">Contracts</a></li>
         </router-link>
 

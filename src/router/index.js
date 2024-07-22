@@ -3,7 +3,8 @@ import PendingPOs from '../components/PendingPOs.vue'
 import MainContent from '../components/Content.vue'
 import Login from '../components/Login.vue'
 import NewPurchaseOrder from '../components/NewPurchaseOrder.vue'
-
+import VendorOnboarding from '../components/VendorOnboarding.vue'
+import supplierquotation from '../components/SupplierQuotation.vue'
 const routes = [
   {
     path: '/',
@@ -25,6 +26,18 @@ const routes = [
     path : '/newpo',
     name : 'NewPurchaseOrder',
     component : NewPurchaseOrder
+
+  },
+  {
+    path : '/onboarding',
+    name : 'VendorOnboarding',
+    component : VendorOnboarding
+
+  },
+  {
+    path : '/supplierquotation',
+    name : 'supplierquotation',
+    component : supplierquotation
 
   }
 
