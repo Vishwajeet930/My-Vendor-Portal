@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import PendingPOs from '../components/PendingPOs.vue'
 import MainContent from '../components/Content.vue'
 import Login from '../components/Login.vue'
+import NewPurchaseOrder from '../components/NewPurchaseOrder.vue'
 
 const routes = [
   {
@@ -19,7 +20,14 @@ const routes = [
     name : 'Login',
     component : Login
 
+  },
+  {
+    path : '/newpo',
+    name : 'NewPurchaseOrder',
+    component : NewPurchaseOrder
+
   }
+
 ]
 
 const router = createRouter({

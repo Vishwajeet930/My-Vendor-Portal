@@ -11,12 +11,28 @@
     <div v-if="isOpen" class="p-4">
       <nav>
         <ul>
+        <router-link to="/"> 
           <li><a href="#" class="block p-2">Dashboard</a></li>
+        </router-link>
+        <router-link to="newpo"> 
           <li><a href="#" class="block p-2">Onboarding</a></li>
+        </router-link>
+
+          <router-link to="newpo"> 
           <li><a href="#" class="block p-2">Supplier Quotation</a></li>
+        </router-link>
+
+          <router-link to="newpo"> 
           <li><a href="#" class="block p-2">Contracts</a></li>
+        </router-link>
+
+          <router-link to="newpo">
           <li><a href="#" class="block p-2">Purchase Orders (POs)</a></li>
+        </router-link>
+        <router-link to="newpo">
           <li><a href="#" class="block p-2">ASN</a></li>
+        </router-link>
+        
           <li><a href="#" class="block p-2">GRN/PR</a></li>
           <li><a href="#" class="block p-2">Invoicing</a></li>
           <li><a href="#" class="block p-2">Subcontracting</a></li>
