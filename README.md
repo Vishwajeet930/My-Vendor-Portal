@@ -1,5 +1,6 @@
 # WebsiteLink
-https://curious-bavarois-891e94.netlify.app/login
+https://curious-bavarois-891e94.netlify.app
+
 
 # dashboard
 
